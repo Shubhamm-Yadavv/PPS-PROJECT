@@ -1,5 +1,4 @@
 # PPS-PROJECT
-
 #include <stdio.h>
 #include <string.h>  // For strcspn
 
@@ -28,7 +27,6 @@ void generate_salary_slip(struct Employee emp) {
     printf("\nFinal Salary: %.2f", emp.final_salary);
     printf("\n======================================");
 }
-
 int main() {
     int num_employees;
 
